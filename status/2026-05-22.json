@@ -1,0 +1,73 @@
+{
+  "sucesso": true,
+  "exit_code": 0,
+  "fase_final": "concluido",
+  "processados": [
+    {
+      "origem": "2026-CONTAS_A_PAGAR_parcial.xlsx",
+      "destino": "pagar_2026.xlsx",
+      "tipo": "pagar",
+      "ano": 2026,
+      "sobrescreveu": true
+    },
+    {
+      "origem": "2026-CONTAS_A_RECEBER_parcial.xlsx",
+      "destino": "receber_2026.xlsx",
+      "tipo": "receber",
+      "ano": 2026,
+      "sobrescreveu": true
+    },
+    {
+      "origem": "2026-VENDAS_ANALITICO_parcial.xlsx",
+      "destino": "vendas_2026.xlsx",
+      "tipo": "vendas",
+      "ano": 2026,
+      "sobrescreveu": true
+    },
+    {
+      "origem": "2026.05.21-CAIXA.pdf",
+      "destino": "extrato_caixa.pdf",
+      "banco": "Caixa",
+      "saldo": 1047.63,
+      "data_extrato": "2026-05-21",
+      "sobrescreveu": true
+    },
+    {
+      "origem": "2026.05.21-INTER.pdf",
+      "destino": "extrato_inter.pdf",
+      "banco": "Inter",
+      "saldo": 7090.54,
+      "data_extrato": "2026-05-21",
+      "sobrescreveu": true
+    },
+    {
+      "origem": "2026.05.21-ITAU.pdf",
+      "destino": "extrato_itau.pdf",
+      "banco": "Itaú",
+      "saldo": 134966.14,
+      "data_extrato": "2026-05-21",
+      "sobrescreveu": true
+    },
+    {
+      "origem": "2026.05.21-STONE.pdf",
+      "destino": "extrato_stone.pdf",
+      "banco": "Stone",
+      "saldo": 26120.58,
+      "data_extrato": "2026-05-21",
+      "sobrescreveu": true
+    }
+  ],
+  "avisos": [],
+  "erros": [],
+  "payloads_gerados": [
+    "gestor/payload.js",
+    "financeiro/payload.js"
+  ],
+  "metadata": {
+    "data_ref": "2026-05-22",
+    "data_extratos": "2026-05-21",
+    "inicio": "2026-05-22T09:57:53",
+    "fim": "2026-05-22T09:58:01",
+    "host": "runnervmg397c"
+  }
+}
